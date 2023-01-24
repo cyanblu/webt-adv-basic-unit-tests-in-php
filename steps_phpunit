@@ -6,3 +6,15 @@ Download PHPUNIT with GIT BASH
 5. Use "./vendor/bin/phpunit tests" to test your code
 
 USE PHPUNIT
+PHP Class erstellen (ggf. in Ordner "tests")
+\PHPUnit\Framework\TestCase extenden
+
+PROBLEME
+Namespace nicht gefunden: in composer.json schreiben:
+
+"autoload" : {
+    "psr-4": {
+        "Namespace\\": "namespacenamen wie er im Code verwendet wird oder so"
+    }
+}
+Use "composer update" to verify new composer.json
