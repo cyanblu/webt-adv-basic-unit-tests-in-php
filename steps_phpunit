@@ -1,0 +1,5 @@
+1. Go to your folder, where you want to download phpunit in it
+2. Use "composer require --dev phpunit/phpunit" in your git bash to download it
+3. Write your Code
+4. Write your TestCode (assert, etc)
+5. Use "./vendor/bin/phpunit tests" to test your code
