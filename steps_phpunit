@@ -3,7 +3,7 @@ Download PHPUNIT with GIT BASH
 2. Use "composer require --dev phpunit/phpunit" in your git bash to download it
 3. Write your Code
 4. Write your TestCode (assert, etc)
-5. Use "./vendor/bin/phpunit tests" to test your code
+5. Use "./vendor/bin/phpunit" to test your code
 
 USE PHPUNIT
 PHP Class erstellen (ggf. in Ordner "tests")
@@ -21,3 +21,4 @@ Use "composer update" to verify new composer.json
 
 FOR BETTER LOOKING
 Create File phpunit.xml
+Use "./vendor/bin/phpunit --testdox" to use
