@@ -1,6 +1,8 @@
 <?php
-require_once "Demo.php";
-class DemoTest extends \PHPUnit\Framework\TestCase {
+require_once "./demo/Demo.php";
+use PHPUnit\Framework\TestCase;
+
+class DemoTest extends TestCase {
     public function testDemo(){
 
         $demo = new Demo(2,2);
